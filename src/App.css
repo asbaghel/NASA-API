@@ -6,7 +6,34 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.AppBar{
+  padding-bottom:10px ;
+}
+.left
+{
+  width: 30%;
+    float: left;
+    text-align: left;
+    overflow: auto;
+   
+   
+}
+.right
+{
+  width: 50%;
+    float:left;
+    overflow: auto;
+    
+    
+}
+.items{
+  background-color: #e9eaec;
+  padding: 25px;
+  margin: auto;
+  border: dashed blue 1px;
+  width: 50%;
+ 
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -23,7 +50,22 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.date
+{
+  width:fit-content;
+  background-color: rgb(136, 136, 243);
+  padding: 5px;
+  color:white;
+}
 
+form{
+
+  width: 74%;
+  display: flex;
+ 
+  margin: auto;
+  
+}
 .App-link {
   color: #61dafb;
 }
